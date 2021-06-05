@@ -1,0 +1,89 @@
+.prof{
+    background: transparent !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 10vw !important;
+    
+}
+
+.card{
+    width: 100% !important;
+    
+    background-color: #2d0b6d !important;
+    border-radius: 87% 13% 88% 12% / 27% 78% 22% 73%  !important;
+    padding: 10vh !important;
+
+}
+
+.col-md-4{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 14% 86% 10% 90% / 87% 16% 84% 13% !important;
+    
+}
+
+img {
+    border-radius: 68% 32% 69% 31% / 27% 86% 14% 73%  !important;
+    height: 279px !important;
+    overflow: hidden !important;
+}
+
+h5{
+    width: 100% !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size:  6vh !important;
+    text-align: center !important;
+}
+
+p{
+    width: 100% !important;
+    color: white !important;
+    font-weight: 300 !important;
+    font-size:  3vh !important;
+    
+}
+
+.btn{
+    color: #240068 !important;
+    background-color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+    transition: 0.5s;
+
+}
+
+@media (max-width: 650px){
+
+    .card{
+        
+        border-radius: 0 !important;
+        padding: 5vh !important;
+        width: 100%;
+    
+    }
+
+    .col-md-4{
+        
+        border-radius: 0 !important;
+        
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .btn:hover{
+        width: 100% !important;
+    }
+
+    .btn{
+        width: 100% !important;
+    }
+
+
+
+}

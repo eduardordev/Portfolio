@@ -1,0 +1,89 @@
+.works{
+    background: transparent !important;
+    width: 100% !important;
+    height: auto !important;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    display:flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    flex-flow: wrap !important;
+    padding-bottom: 10vh !important;
+    
+}
+
+
+
+#card{
+    width: 20% !important;
+    height: auto !important;
+    padding: 0vh !important;
+    background-color: white !important;
+    margin: 20px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
+@media(max-width:800px){
+    #card{
+        width: 40% !important;
+
+    }
+}
+
+@media(max-width:650px){
+    #card{
+        width: 90% !important;
+        
+    }
+}
+
+#card-title{
+    width: 100% !important;
+    color: #240068 !important;
+    font-weight: 700 !important;
+    font-size:  3vh !important;
+    text-align: center !important;
+}
+
+#card-text{
+    width: 100% !important;
+    color: #240068 !important;
+    font-weight: 300 !important;
+    font-size:  2vh !important;
+    text-align: justify !important;
+    
+}
+
+img.card-img-top{
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden !important;
+    border-radius: 8px 8px 0px 0px !important;
+}
+
+#btn{
+    background-color: #240068 !important;
+    color: white !important;
+    font-weight: 500 !important;
+    border: none !important;
+    transition: 0.5s;
+
+}
+
+.titleWeb{
+    width: 100% !important;
+    padding-bottom: 5vh !important;
+    padding-top: 5vh !important;
+    color: white !important;
+    font-size: 10vh !important;
+    text-align: center !important;
+    border-radius: 87% 13% 88% 12% / 27% 78% 22% 73% !important;
+    background-color:#2d0b6d !important;
+}
