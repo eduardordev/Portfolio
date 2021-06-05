@@ -9,7 +9,7 @@ class Work extends Component {
                 
                 <h2 className="titleWeb">Web Projects</h2>
                 <div className="works">
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <div className="hiddenn">
                             <img src="src\assets\mad.PNG" className="card-img-top" alt="..."></img>
                         </div>
@@ -21,7 +21,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <div className="hiddenn">
                             <img src="src\assets\chat.PNG" className="card-img-top" alt="..."></img>
                         </div>
@@ -33,7 +33,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <div className="hiddenn">
                             <img src="src\assets\calc.PNG" className="card-img-top" alt="..."></img>
                         </div>
@@ -44,7 +44,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <div className="hiddenn">
                             <img src="src\assets\roli.PNG" className="card-img-top" alt="..."></img>
                         </div>
@@ -58,7 +58,7 @@ class Work extends Component {
                 </div>
                 <h2 className="titleWeb">UX/UI Projects</h2>
                 <div className="works">
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <img src="src\assets\sg.jpeg" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">SimpleGram</h5>
@@ -67,7 +67,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <img src="src\assets\wpp.jpeg" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">WhatsApp Pay</h5>
@@ -76,7 +76,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <img src="src\assets\am.jpeg" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">Arcade Moms</h5>
@@ -85,7 +85,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div className="card" id="card">
+                    <div className="card" id="cardi">
                         <img src="src\assets\eun.jpeg" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">Eunoia</h5>

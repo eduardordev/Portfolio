@@ -1,0 +1,137 @@
+.contact{
+    width: 100%;
+    height: auto;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+    
+}
+.connTitle{
+    color: white;
+    font-size: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    border-radius: 87% 13% 88% 12% / 27% 78% 22% 73% !important;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
+    padding: 5vh;
+    width: 100%;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(33,88,203,1) 0%, rgba(45,11,109,1) 83%);
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5vh;
+}
+
+
+.circle1{
+    
+    border-radius: 80% 20% 87% 13% / 19% 81% 19% 81%;
+    background: linear-gradient(90deg, rgba(45,11,109,1) 0%,  rgba(33,88,203,1) 83%);
+    width: 60vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    
+    
+}
+
+.git{
+    width: 25vh !important;
+    height: 25vh !important;
+    transition: 0.5s ease-in-out;
+    border-radius: 50% !important;
+
+}
+
+.git:hover{
+    transform: scale(1.08);
+}
+
+@media (max-width: 650px){
+
+    .git{
+        width: 15vh !important;
+        height: 15vh !important;
+    }
+
+    .circle{
+        width:25vh;
+        height: 25vh;
+    }
+
+    .circle1{
+        margin-top: 30px;
+        background: linear-gradient(90deg, rgba(45,11,109,1) 0%,  rgba(33,88,203,1) 83%);
+        border-radius: 8px !important;
+        padding: 5vh !important;
+        width: 100%;
+        
+    }
+
+    .connTitle{
+        
+        font-size: 5vh;
+        
+    }
+}
+
+
+h3{
+    color: white;
+    font-weight: 500;
+
+}
+
+img.imgw{
+    border-radius: 15% !important;
+    width:5vh !important;
+    height: 5vh !important;
+    margin-right: 10px;
+
+}
+
+a.whapp{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px !important;
+    height: auto;
+    font-weight: 600;
+    transition: 1.2s ease-in-out;
+}
+
+a.whapp:hover{
+    transform: scale(1.08);
+}
+
+
+.pp{
+    width:100%;
+    text-align: center;
+    font-size: 14px !important;
+}

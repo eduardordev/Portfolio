@@ -21,7 +21,7 @@ class NavBar extends Component{
 
                         <a href="#works" className= "h2">work</a>
                         
-                        <a href="#" className= "h3">contact</a>
+                        <a href="#cnt" className= "h3">contact</a>
                     </ul>
                     
                     

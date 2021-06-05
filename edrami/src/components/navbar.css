@@ -50,7 +50,7 @@
     color: #ffffff !important;
     list-style-type: none !important;
     text-decoration: none !important;
-    transition: 0.5s;
+    transition: 1.1s ease-in-out;
 }
 
 .h2, .h3{
@@ -60,6 +60,7 @@
 
 .h1:hover, .h2:hover, .h3:hover{
     color: rgb(255, 217, 0) !important;
+    transform: scale(1.08);
 }
 
 .eerh:hover{

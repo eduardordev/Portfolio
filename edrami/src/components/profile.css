@@ -11,7 +11,7 @@
 .card{
     width: 100% !important;
     
-    background-color: #2d0b6d !important;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
     border-radius: 87% 13% 88% 12% / 27% 78% 22% 73%  !important;
     padding: 10vh !important;
 

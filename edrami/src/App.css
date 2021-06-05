@@ -38,7 +38,7 @@ body{
 .bgitem1{
     width: 40vh;
     height: 40vh;
-    background-color: #2d0b6d;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
     border-radius:59% 41% 85% 15% / 46% 66% 34% 54% ;
     position: absolute;
     margin-left: 10vw;
@@ -104,7 +104,7 @@ h1.bgitem4{
 .bgitem3{
     width: 40vh;
     height: 40vh;
-    background-color: #2d0b6d;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
     border-radius:69% 31% 24% 76% / 25% 39% 61% 75%  ;
     position: absolute;
     margin-left: 60vw;
@@ -122,7 +122,7 @@ h1.bgitem4{
 .bgitem5{
     width: 40vh;
     height: 40vh;
-    background-color: #2d0b6d;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
     border-radius: 87% 13% 55% 45% / 43% 48% 52% 57% ;
     position: absolute;
     margin-left: 38vw;
@@ -130,6 +130,16 @@ h1.bgitem4{
     z-index: -1;
     animation: spin 60s linear infinite;
   
+    
+}
+
+.cont{
+    width: 100% !important;
+    height: auto !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 

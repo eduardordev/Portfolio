@@ -14,11 +14,11 @@
 
 
 
-#card{
+#cardi{
     width: 20% !important;
     height: auto !important;
     padding: 0vh !important;
-    background-color: white !important;
+    background: white !important;
     margin: 20px !important;
     border-radius: 8px !important;
     border: none !important;
@@ -31,14 +31,14 @@
 }
 
 @media(max-width:800px){
-    #card{
+    #cardi{
         width: 40% !important;
 
     }
 }
 
 @media(max-width:650px){
-    #card{
+    #cardi{
         width: 90% !important;
         
     }
@@ -78,7 +78,7 @@ img.card-img-top{
     position: relative !important;
 }
 
-#card:hover{
+#cardi:hover{
     transform: scale(1.08);
     border: none;
 }
@@ -100,5 +100,13 @@ img.card-img-top{
     font-size: 10vh !important;
     text-align: center !important;
     border-radius: 87% 13% 88% 12% / 27% 78% 22% 73% !important;
-    background-color:#2d0b6d !important;
+    background: linear-gradient(90deg, rgba(81,33,203,1) 0%, rgba(45,11,109,1) 83%);
+}
+
+
+@media(max-width:650px){
+    .titleWeb{
+        font-size:5vh !important;
+        
+    }
 }

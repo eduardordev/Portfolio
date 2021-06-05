@@ -3,7 +3,8 @@ import './App.css';
 import NavBar from "./components/NavBar.jsx";
 import Main from "./components/Main.jsx";
 import Profile from "./components/profile.jsx";
-import Work from "./components/work.jsx"
+import Work from "./components/work.jsx";
+import Contact from "./components/contact.jsx";
 
 class App extends Component {
     render() {
@@ -36,7 +37,11 @@ class App extends Component {
 
                 <div className="works" id="works">
                     <Work></Work>
-                </div>      
+                </div>
+
+                <div className="cont" id="cnt">
+                    <Contact></Contact>
+                </div>         
                
                
             </div>
