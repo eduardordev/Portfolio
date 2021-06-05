@@ -17,7 +17,7 @@ class Work extends Component {
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">CSS Pic Recreated</h5>
                             <p className="card-text" id="card-text" >A picture of Madeon and Porter Robinson recreated with CSS only.</p>
-                            <a type="a" className="btn btn-primary btn-lg" id="btn" href="">See Repo</a>
+                            <a type="a" className="btn btn-primary btn-lg" id="btn" href="http://stw-uvg.site/labs/lab04/Ramirez19946/">See Illustration</a>
                         </div>
                     </div>
 
