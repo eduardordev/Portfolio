@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import { Chatbubbles } from 'react-ionicons'
 import "./work.css"
-
+import Animate from 'animate.css-react';
 
 class Work extends Component {
     render() {
         return (
             <section>
+                
                 <h2 className="titleWeb">Web Projects</h2>
                 <div className="works">
                     <div className="card" id="card">
-                        <img src="src\assets\mad.PNG" className="card-img-top" alt="..."></img>
+                        <div className="hiddenn">
+                            <img src="src\assets\mad.PNG" className="card-img-top" alt="..."></img>
+                        </div>
+                        
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">CSS Pic Recreated</h5>
                             <p className="card-text" id="card-text" >A picture of Madeon and Porter Robinson recreated with CSS only.</p>
@@ -19,7 +22,10 @@ class Work extends Component {
                     </div>
 
                     <div className="card" id="card">
-                        <img src="src\assets\chat.PNG" className="card-img-top" alt="..."></img>
+                        <div className="hiddenn">
+                            <img src="src\assets\chat.PNG" className="card-img-top" alt="..."></img>
+                        </div>
+
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">JS Chat</h5>
                             <p className="card-text" id="card-text" >A chat created with dynamic HTML & JS with connection to other chats.</p>
@@ -28,7 +34,9 @@ class Work extends Component {
                     </div>
 
                     <div className="card" id="card">
-                        <img src="src\assets\calc.PNG" className="card-img-top" alt="..."></img>
+                        <div className="hiddenn">
+                            <img src="src\assets\calc.PNG" className="card-img-top" alt="..."></img>
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">React Calculator</h5>
                             <p className="card-text" id="card-text" >A basic Calculator created with dynamic HTML, CSS & ReactJS.</p>
@@ -37,11 +45,14 @@ class Work extends Component {
                     </div>
 
                     <div className="card" id="card">
-                        <img src="src\assets\roli.PNG" className="card-img-top" alt="..."></img>
+                        <div className="hiddenn">
+                            <img src="src\assets\roli.PNG" className="card-img-top" alt="..."></img>
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title" id="card-title">Web Page Recreated</h5>
                             <p className="card-text" id="card-text" >Web Page of ROLI recreated with ReactJS and more libraries.</p>
                             <a type="a" className="btn btn-primary btn-lg" id="btn" href="https://github.com/eduardorh1312/Proyecto1-SYTW">See Repo</a>
+                            
                         </div>
                     </div>
                 </div>

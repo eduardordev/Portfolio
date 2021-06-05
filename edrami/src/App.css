@@ -44,8 +44,18 @@ body{
     margin-left: 10vw;
     margin-top: 10vw;
     z-index: -1;
-    transition: 0.5s;
+    transition: 1.2s;
+    animation: spin 60s linear infinite;
+  
+    
 }
+
+@keyframes spin{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+
+
 
 h1.bgitem2{
     width: auto;
@@ -56,9 +66,16 @@ h1.bgitem2{
     position: absolute;
     position:fixed;
     z-index: -2;
-    margin-left: -10vw;
+    margin-left: -4vw;
     margin-top: -20vh;
     transition: 0.5s;
+    animation: sidemove1 45s linear infinite;
+    overflow: hidden;
+}
+@keyframes sidemove1 {
+    0%{transform: translateX(-231vw);}
+    100%{transform: translateX(0);}
+       
 }
 
 h1.bgitem4{
@@ -73,6 +90,14 @@ h1.bgitem4{
     margin-left: -22vw;
     margin-top: 35vh;
     transition: 0.5s;
+    animation: sidemove 45s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes sidemove {
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-231vw);}
+       
 }
 
 
@@ -85,8 +110,14 @@ h1.bgitem4{
     margin-left: 60vw;
     margin-top: 8vh;
     z-index: -1;
-    transition: 0.5s;
+    animation: spin1 60s linear infinite;
+
 }
+
+@keyframes spin1{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(-360deg);}
+    }
 
 .bgitem5{
     width: 40vh;
@@ -97,8 +128,15 @@ h1.bgitem4{
     margin-left: 38vw;
     margin-top: 55vh;
     z-index: -1;
-    transition: 0.5s;
+    animation: spin 60s linear infinite;
+  
+    
 }
+
+@keyframes spin{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
 
 @media (max-width: 650px){
     

@@ -13,12 +13,12 @@ class App extends Component {
                 <div className = "bgitem1">
                 </div>
                 <div className = "bgitem2">
-                    <h1 className = "bgitem2">MAKEITHAPPEN</h1>
+                    <h1 className = "bgitem2">CREATECREATECREATECREA</h1>
                 </div>
                 <div className = "bgitem3">
                 </div>
                 <div className = "bgitem4">
-                    <h1 className = "bgitem4">MAKEITHAPPEN</h1>
+                    <h1 className = "bgitem4">CREATECREATECREATE</h1>
                 </div>
                 <div className = "bgitem5">
                 </div>
